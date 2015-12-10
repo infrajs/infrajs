@@ -1,0 +1,21 @@
+{
+	"name": "infrajs/infrajs",
+	"description":"Very simple site",
+	"license": "GPL3",
+	"autoload": {
+		"psr-4": { "infrajs\\infrajs\\": "/" }
+	},
+	"require":{
+		"infrajs/infra":"~1",
+		"infrajs/controller":"~1",
+		"infrajs/layer-tpl":"~1",
+		"infrajs/layer-div":"~1",
+		"infrajs/layer-seojson":"~1",
+		"infrajs/layer-showanimate":"~1",
+		"infrajs/contacts":"~1",
+		"infrajs/imager":"~1",
+		"infrajs/activelink":"~1",
+		"infrajs/ascroll":"~1",
+		"infrajs/ans":"~1"
+	}
+}
