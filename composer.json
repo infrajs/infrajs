@@ -6,6 +6,7 @@
 		"psr-4": { "infrajs\\infrajs\\": "/" }
 	},
 	"require":{
+		"infrajs/load":"~1",
 		"infrajs/infra":"~1",
 		"infrajs/controller":"~1",
 		"infrajs/layer-div":"~1",
