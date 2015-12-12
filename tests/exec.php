@@ -4,7 +4,6 @@ use infrajs\ans\Ans;
 use infrajs\path\Path;
 use infrajs\view\View;
 use infrajs\load\Load;
-use infrajs\crumb\Crumb;
 
 if (!is_file('vendor/autoload.php')) {
 	chdir('../../../../');	
