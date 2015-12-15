@@ -14,12 +14,12 @@ $ans = array('title' => 'Проверки контроллера');
 
 
 
-$composer=Load::loadJSON('*infrajs/composer.json');
+$composer=Load::loadJSON('-infrajs/composer.json');
 $require=$composer['require'];
 
 foreach($require as $path=>$ver){
 	$p=explode('/',$path);
-	$r=Path::reqif('*'.$p[1].'/infra.php');
+	$r=Path::reqif('-'.$p[1].'/infra.php');
 	if (!$r) continue;
 }
 
