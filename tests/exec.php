@@ -9,6 +9,7 @@ if (!is_file('vendor/autoload.php')) {
 	chdir('../../../../');	
 	require_once('vendor/autoload.php');
 }
+$query = Crumb::$query;
 
 $ans = array('title' => 'Проверки контроллера');
 
@@ -20,7 +21,6 @@ $require=$composer['require'];
 foreach($require as $path=>$ver){
 	$p=explode('/',$path);
 	$r=Path::reqif('-'.$p[1].'/infra.php');
-	if (!$r) continue;
 }
 
 $layer = array(
@@ -33,5 +33,8 @@ Crumb::change('');
 $html = Controller::check($layer);
 
 if ($html != 'qewr1') return Ans::err($ans,'Результат неожиданный '.$html);
+
+Crumb::change($query);
+
 
 return Ans::ret($ans);
