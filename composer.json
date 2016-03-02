@@ -1,5 +1,6 @@
 {
 	"name": "infrajs/infrajs",
+	"homepage":"https://github.com/infrajs/infrajs",
 	"description":"Very simple site",
 	"license": "GPL3",
 	"autoload": {
