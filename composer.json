@@ -15,6 +15,7 @@
 		"infrajs/path":"~1",
 		"infrajs/view":"~1",
 		"infrajs/ans":"~1",
+		"ded/domready":"~1",
 		"infrajs/update":"~1",
 		"infrajs/config":"~1",
 		"infrajs/collect":"~1",

@@ -1,3 +1,4 @@
 {
-	"tester":"tests/"
+	"tester":"tests/",
+	"pathsearch":"vendor/ded/"
 }
