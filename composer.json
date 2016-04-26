@@ -7,25 +7,18 @@
 		"psr-4": { "infrajs\\infrajs\\": "/" }
 	},
 	"require":{
-		"infrajs/load":"~1",
-		"infrajs/once":"~1",
-		"infrajs/hash":"~1",
-		"infrajs/mem":"~1",
-		"infrajs/cache":"~1",
-		"infrajs/path":"~1",
-		"infrajs/view":"~1",
-		"infrajs/ans":"~1",
-		"ded/domready":"~1",
+		"infrajs/htmlcompress":"~1",
+		"infrajs/timezone":"~1",
+		"infrajs/router":"~1",
+		"infrajs/mdreader":"~1",
+		"infrajs/admin":"~1",
+		"infrajs/tester":"~1",
 		"infrajs/update":"~1",
 		"infrajs/config":"~1",
 		"infrajs/collect":"~1",
 		"infrajs/controller":"~1",
-		"infrajs/layer-seojson":"~1",
-		"infrajs/layer-showanimate":"~1",
-		"infrajs/contacts":"~1",
-		"infrajs/imager":"~1",
-		"infrajs/activelink":"~1",
+		"infrajs/loader":"~1",
 		"infrajs/ascroll":"~1",
-		"infrajs/ans":"~1"
+		"infrajs/activelink":"~1"
 	}
 }
