@@ -35,6 +35,6 @@ $html = Controller::check($layer);
 if ($html != 'qewr1') return Ans::err($ans,'Результат неожиданный '.$html);
 
 Crumb::change($query);
-
+View::html('', true);
 
 return Ans::ret($ans);
