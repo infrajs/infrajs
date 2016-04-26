@@ -7,19 +7,14 @@
 		"psr-4": { "infrajs\\infrajs\\": "/" }
 	},
 	"require":{
+		"infrajs/router":"~1",
+		"infrajs/controller":"~1",
 		"infrajs/htmlcompress":"~1",
 		"infrajs/timezone":"~1",
-		"infrajs/nostore":"~1",
-		"infrajs/router":"~1",
 		"infrajs/mdreader":"~1",
 		"infrajs/admin":"~1",
 		"infrajs/tester":"~1",
-		"infrajs/update":"~1",
-		"infrajs/config":"~1",
 		"infrajs/collect":"~1",
-		"infrajs/controller":"~1",
-		"infrajs/loader":"~1",
-		"infrajs/ascroll":"~1",
-		"infrajs/activelink":"~1"
+		"infrajs/loader":"~1"
 	}
 }
