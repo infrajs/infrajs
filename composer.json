@@ -11,6 +11,7 @@
 		"infrajs/controller":"~1",
 		"infrajs/collect":"~1",
 		
+		"infrajs/update":"~1",
 		"infrajs/htmlcompress":"~1",
 		"infrajs/timezone":"~1",
 		"infrajs/mdreader":"~1",
