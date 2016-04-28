@@ -12,8 +12,9 @@
 2. [infrajs/timezone](https://github.com/infrajs/timezone/)
 3. [infrajs/mdreader](https://github.com/infrajs/mdreader/)
 4. [infrajs/admin](https://github.com/infrajs/admin/)
-5. [infrajs/tester](https://github.com/infrajs/tester/)
-6. [infrajs/loader](https://github.com/infrajs/loader/)
+5. [infrajs/update](https://github.com/infrajs/update/)
+6. [infrajs/tester](https://github.com/infrajs/tester/)
+7. [infrajs/loader](https://github.com/infrajs/loader/)
 
 Если вам осознано требуется какое-то расширение из перечисленных, лучше указать его явно в composer.json. Состав незметных расширений может измениться. Основные расширения не поменяются.
 
