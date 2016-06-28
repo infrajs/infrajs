@@ -10,7 +10,7 @@
 		"infrajs/router":"~1",
 		"infrajs/controller":"~1",
 		"infrajs/collect":"~1",
-		"infrajs/domready":"~1",
+		"ded/domready":"~1",
 		
 		"infrajs/update":"~1",
 		"infrajs/htmlcompress":"~1",
