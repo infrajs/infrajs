@@ -4,23 +4,23 @@ use infrajs\ans\Ans;
 use infrajs\path\Path;
 use infrajs\view\View;
 use infrajs\load\Load;
+use infrajs\router\Router;
 
 if (!is_file('vendor/autoload.php')) {
 	chdir('../../../../');	
 	require_once('vendor/autoload.php');
+	Router::init();
 }
-$query = Crumb::$query;
+$query = Crumb::$href;
 
 $ans = array('title' => 'Проверки контроллера');
-
-
 
 $composer=Load::loadJSON('-infrajs/composer.json');
 $require=$composer['require'];
 
 foreach($require as $path=>$ver){
-	$p=explode('/',$path);
-	$r=Path::reqif('-'.$p[1].'/infra.php');
+	$p = explode('/',$path);
+	$r = Path::reqif('-'.$p[1].'/infra.php');
 }
 
 $layer = array(
